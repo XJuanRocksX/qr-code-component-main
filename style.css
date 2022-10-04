@@ -1,0 +1,85 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+html {
+    font-size: 15px;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    padding: 1.333rem;
+    background-color: hsl(212, 45%, 89%);
+}
+
+article {
+    padding: 0.933rem;
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-bottom: 0.8rem;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+}
+
+#card {
+    width: 21.333rem;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.2rem;
+    margin-bottom: 1.667rem;
+    border-radius: 1.333rem;
+    box-shadow: 0.2rem 30.2rem 1.733rem 0.333 rgba(0,0,0,0.10);
+}
+
+#qrimage {
+    width: 18.933rem;
+    height: 18.933rem;
+    border-radius: 0.667rem;
+    margin-bottom: 0.667rem;
+    overflow: hidden;
+}
+
+h1, p {
+    text-align: center;
+}
